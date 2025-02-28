@@ -1,0 +1,26 @@
+export type KYCPolicyLocaleType = {
+  KYCPolicy: string;
+  KnowYourCustomer: string;
+  KnowYourCustomerPolicies: string;
+  ZetradexHoldsAZero: string;
+  Prevention: string;
+  ZetradexAimsToEnsure: string;
+  WhenYouDepositFunds: string;
+  ACopyOfYourValid: string;
+  CopiesOfYourCredit: string;
+  OneOrMoreIfAvailable: string;
+  RecentCopyOfABank: string;
+  AuthorizationCodeFor: string;
+  ClearColorCopiesOf: string;
+  ACopyOfARecentUtility: string;
+  IfYouHaveAnyQuestionsPlease: string;
+  WhenDoINeedToProvide: string;
+  WeHighlyAppreciateYou: string;
+  DocumentsBeCheckedWithin: string;
+  PleaseNoteThatIf: string;
+  HowCanISendYou: string;
+  PleaseScanYourDocuments: string;
+  HowDoIKnowMy: string;
+  ZetradexHoldsTheSecurity: string;
+  WeThankYouForYour: string;
+};

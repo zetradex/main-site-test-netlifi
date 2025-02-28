@@ -1,0 +1,38 @@
+import { FooterNewLocaleType } from "./types";
+
+export default {
+  Traders: "ट्रेडर्स",
+  DepositWithdrawal: "जमा एवं निकासी",
+  LocalCurrency: "स्थानीय मुद्रा",
+  Services: "सेवाएं",
+  WebPlatform: "वेब प्लेटफार्म",
+  MobilePlatform: "मोबाइल प्लेटफार्म",
+  InterestRate: "ब्याज दर",
+  Bonuses: "बोनस",
+  MedalBonus: "मेडल बोनस",
+  OlympicBonus: "ओलंपिक बोनस",
+  MarathonBonus: "मैराथन बोनस",
+  Learn: "सीखना",
+  Analytics: "एनालिटिक्स",
+  VideoTutorial: "वीडियो ट्यूटोरियल",
+  Educational: "शिक्षात्मक",
+  Partners: "भागीदारों",
+  AffiliateLinks: "सहबद्ध लिंक",
+  Banners: "बैनर",
+  PartnersEarning: "साझेदारों की कमाई",
+  Company: "कंपनी",
+  ContactUs: "संपर्क करें",
+  FundsSecurity: "निधि सुरक्षा",
+  AboutUs: "हमारे बारे में",
+  Regulation: "विनियमन",
+  RegulatoryRiskDisclaimer: "विनियामक एवं जोखिम अस्वीकरण",
+  RiskNotice:
+    "जोखिम सूचना: मार्जिन पर एफएक्स ट्रेडिंग में उच्च स्तर का जोखिम होता है। व्यापारियों को व्यापार करने का निर्णय लेने से पहले यह सुनिश्चित करना चाहिए कि वे लीवरेज्ड एफएक्स ट्रेडिंग से जुड़े जोखिमों को समझें।",
+  WelcomeBonus: "स्वागत बोनस",
+  PowerUpBonus: "पावर-अप बोनस",
+  VideoLesson: "वीडियो पाठ",
+  Career: "कैरियर",
+  TradingInstrument: "ट्रेडिंग उपकरण",
+
+  ChineseNewYearBonus: "चीनी नववर्ष बोनस",
+} as FooterNewLocaleType;

@@ -1,0 +1,59 @@
+@use '../../../../common/mixins';
+@import '../../../../common/variables';
+@import '../../../../common/templates';
+
+.block {
+    @include mixins.adaptiveValue('margin-bottom', 179, 60);
+}
+
+
+.text__block {
+    display: flex;
+    flex-wrap: wrap;
+    //flex-direction: column;
+
+    @include mixins.adaptiveValue('margin-left', 70, 35);
+    @include mixins.adaptiveValue('margin-right', 70, 35);
+    @include mixins.adaptiveValue('margin-bottom', 100, 50);
+
+    gap: 50px;
+
+    &_header {
+        @extend %h2-template;
+    }
+}
+
+.description__block {
+    display: flex;
+    //flex-wrap: wrap;
+    column-gap: 90px;
+    row-gap: 20px;
+
+    &_item {
+        max-width: 300px;
+        @extend %p-template;
+
+        &_box {
+            max-width: 350px;
+            display: flex;
+            gap: 19px;
+            margin-left: -43px;
+        }
+
+        &_image {
+            margin-top: 5px;
+        }
+    }
+}
+@media (max-width: 800px) {
+    .description__block{
+        flex-wrap: wrap;
+        &_item{
+            max-width: unset;
+            width: 100%;
+            &_box{
+               max-width: unset;
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+import { FooterNewLocaleType } from "./types";
+
+export default {
+  Traders: "贸易商",
+  DepositWithdrawal: "存取款",
+  LocalCurrency: "当地货币",
+  Services: "服务",
+  WebPlatform: "网络平台",
+  MobilePlatform: "移动平台",
+  InterestRate: "利率",
+  Bonuses: "奖金",
+  MedalBonus: "奖章奖金",
+  OlympicBonus: "奥运奖金",
+  MarathonBonus: "马拉松奖金",
+  Learn: "学习",
+  Analytics: "分析",
+  VideoTutorial: "视频教程",
+  Educational: "教育性",
+  Partners: "伙伴",
+  AffiliateLinks: "附属链接",
+  Banners: "横幅",
+  PartnersEarning: "合作伙伴收益",
+  Company: "公司",
+  ContactUs: "联系我们",
+  FundsSecurity: "资金安全",
+  AboutUs: "关于我们",
+  Regulation: "规定",
+  RegulatoryRiskDisclaimer: "监管和风险免责声明",
+  RiskNotice:
+    "风险提示：保证金外汇交易存在高风险。 交易者在决定交易之前应确保了解与杠杆外汇交易相关的风险。",
+  WelcomeBonus: "欢迎奖金",
+  PowerUpBonus: "强化奖励",
+  VideoLesson: "视频课程",
+  Career: "职业",
+  TradingInstrument: "交易工具",
+
+  ChineseNewYearBonus: "农历新年奖金",
+} as FooterNewLocaleType;

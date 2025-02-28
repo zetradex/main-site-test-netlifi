@@ -1,0 +1,21 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="icon-1-deposit">
+<rect width="60" height="60" rx="21" fill="#EAF4FF"/>
+<g id="Vector" filter="url(#filter0_d_8192_432)">
+<path d="M17.2 38.875V41.222C17.2 41.6517 17.6392 42 18.1808 42H41.8192C42.3608 42 42.8 41.6517 42.8 41.222V38.875H17.2Z" fill="#0792FF"/>
+<path d="M45.5688 20.8708C45.2303 20.656 44.7909 20.6787 44.4768 20.9271L37.6514 26.327C37.3203 26.589 37.2082 27.038 37.3779 27.4222C37.4822 27.6582 37.5351 27.9091 37.5351 28.168C37.5351 29.1968 36.6887 30.0339 35.6484 30.0339C34.6081 30.0339 33.7617 29.1968 33.7617 28.168C33.7617 27.5627 34.0614 26.9923 34.5635 26.6422C34.9422 26.3781 35.069 25.8798 34.8617 25.4699L30.8385 17.5125C30.6797 17.1984 30.3551 17 29.9999 17C29.6448 17 29.3202 17.1984 29.1614 17.5125L25.1381 25.4699C24.9309 25.8798 25.0576 26.3781 25.4364 26.6422C25.9385 26.9924 26.2382 27.5628 26.2382 28.168C26.2382 29.1969 25.3918 30.0339 24.3515 30.0339C23.3111 30.0339 22.4647 29.1969 22.4647 28.168C22.4647 27.9092 22.5176 27.6582 22.6219 27.4223C22.7917 27.0381 22.6795 26.589 22.3485 26.3271L15.5232 20.9271C15.2092 20.6786 14.7698 20.656 14.4312 20.8708C14.0927 21.0856 13.9305 21.49 14.0281 21.8759L17.2 37.3125H42.8L45.9719 21.8759C46.0695 21.49 45.9073 21.0856 45.5688 20.8708Z" fill="#0792FF"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_8192_432" x="6" y="13" width="48" height="41" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.027451 0 0 0 0 0.572549 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_8192_432"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_8192_432" result="shape"/>
+</filter>
+</defs>
+</svg>

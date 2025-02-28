@@ -1,0 +1,38 @@
+import { FooterNewLocaleType } from "./types";
+
+export default {
+  Traders: "Pedagang",
+  DepositWithdrawal: "Setoran & Penarikan",
+  LocalCurrency: "Mata uang lokal",
+  Services: "Jasa",
+  WebPlatform: "Platform Web",
+  MobilePlatform: "Platform Seluler",
+  InterestRate: "Suku bunga",
+  Bonuses: "Bonus",
+  MedalBonus: "Bonus Medali",
+  OlympicBonus: "Bonus Olimpiade",
+  MarathonBonus: "Bonus Maraton",
+  Learn: "Mempelajari",
+  Analytics: "Analisa",
+  VideoTutorial: "Video Tutorial",
+  Educational: "Pendidikan",
+  Partners: "Mitra",
+  AffiliateLinks: "Tautan Afiliasi",
+  Banners: "Spanduk",
+  PartnersEarning: "Penghasilan Mitra",
+  Company: "Perusahaan",
+  ContactUs: "Hubungi kami",
+  FundsSecurity: "Keamanan Dana",
+  AboutUs: "Tentang kami",
+  Regulation: "Regulasi",
+  RegulatoryRiskDisclaimer: "Peringatan tentang regulasi dan resiko",
+  RiskNotice:
+    "Pemberitahuan risiko: Perdagangan valas dengan margin memiliki tingkat risiko yang tinggi. Trader harus memastikan bahwa mereka memahami risiko yang terkait dengan perdagangan FX dengan leverage sebelum memutuskan untuk berdagang.",
+  WelcomeBonus: "Bonus Selamat Datang",
+  PowerUpBonus: "Bonus Peningkatan Daya",
+  VideoLesson: "Pelajaran Video",
+  Career: "Karir",
+  TradingInstrument: "Instrumen Perdagangan",
+
+  ChineseNewYearBonus: "Bonus Tahun Baru Cina",
+} as FooterNewLocaleType;

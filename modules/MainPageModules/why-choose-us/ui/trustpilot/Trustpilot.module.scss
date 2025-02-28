@@ -1,0 +1,118 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.Trustpilot {
+    max-width: 428px;
+    max-height: 542px;
+    min-height: 542px;
+
+    @media (max-width: 425px) {
+        min-height: 463px;
+    }
+
+    @media (max-width: 375px) {
+        min-height: 499px;
+    }
+
+    display: flex !important;
+    flex-direction: column !important;
+
+    @include mixins.adaptiveValue('padding-top', 48, 28);
+    @include mixins.adaptiveValue('padding-bottom', 48, 28);
+    @include mixins.adaptiveValue('padding-left', 55, 41);
+    @include mixins.adaptiveValue('padding-right', 55, 41);
+
+    background: #B2FDF7;
+    border-radius: 30px;
+
+    &_header {
+        @include mixins.adaptiveValue('margin-bottom', 17, 15);
+
+        h2 {
+            @extend %h2-template;
+        }
+    }
+
+    &_stars {
+
+        img {
+            @include mixins.adaptiveImage(305);
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 14, 13);
+    }
+
+    &_ratings {
+        display: flex;
+        justify-content: space-between;
+        @include mixins.adaptiveValue('margin-bottom', 22, 22);
+
+        p {
+            color: #202121;
+
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 133.333%;
+
+            &:last-child {
+                text-align: right;
+            }
+        }
+
+    }
+
+    &_title {
+        h4 {
+            @extend %h4-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 14, 12);
+    }
+
+    &_desc {
+        flex: 1;
+
+        p {
+            @extend %p-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 14, 12);
+
+    }
+
+    &_footer {
+        p {
+            @extend %p-template;
+        }
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
+
+    &_btn {
+        display: flex;
+        justify-content: space-between;
+
+        @include mixins.adaptiveValue('column-gap', 43, 28);
+
+        img {
+            cursor: pointer;
+            @include mixins.adaptiveImageHeight(9, 18);
+        }
+    }
+}
+
+.Slider {
+    margin-bottom: 8px;
+    max-width: 428px;
+
+    @media (max-width: 425px) {
+        max-width: 395px;
+    }
+    @media (max-width: 375px) {
+        max-width: 345px;
+    }
+}

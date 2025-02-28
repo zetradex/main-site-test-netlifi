@@ -1,0 +1,214 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+
+.block {
+    background: #EAF4FF;
+}
+
+.wrapper {
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    column-gap: 30px;
+
+    @media (max-width: 1237px) {
+        justify-content: center;
+        flex-direction: column-reverse;
+        align-content: center;
+        align-items: center;
+
+        .left__block_wrapper {
+            @include mixins.adaptiveValue('margin-top', 50, 50);
+        }
+    }
+}
+
+
+.left__block {
+    width: 671px;
+    height: 662px;
+    position: relative;
+
+    img {
+        @include mixins.adaptiveImage(745);
+    }
+
+    &_image_phone {
+        position: absolute;
+        left: -500%;
+        transition: left .2s ease-in-out;
+
+        &_active {
+            @include mixins.adaptiveValue('margin-top', 55, 0);
+
+            position: absolute;
+            left: 0;
+            transform: translateX(0);
+            transition: left .2s ease-in-out;
+        }
+    }
+
+
+    &_image_laptop {
+        position: absolute;
+        left: -500%;
+
+        transition: left .2s ease-in-out;
+
+        &_active {
+            @include mixins.adaptiveValue('margin-top', 0, -30);
+
+            position: absolute;
+            left: 0;
+            top: 50px;
+            transform: translateX(0);
+            transition: left .2s ease-in-out;
+        }
+    }
+
+}
+
+.right__block {
+    flex: 1 1 47%;
+
+    &_buttons {
+        display: flex;
+        gap: 55px;
+        margin-top: 50px;
+        @include mixins.adaptiveValue('margin-bottom', 45, 20);
+    }
+
+    &_button {
+        cursor: pointer;
+        border: none;
+        border-bottom: 1px solid transparent;
+        background-color: transparent;
+        @extend %button-text-template;
+        color: $footer-text;
+        //opacity: 0.66;
+        transition: all .2s;
+
+        &:hover {
+            color: $primary-color;
+            transition: all .2s;
+        }
+
+        &_active {
+            background-color: transparent;
+            border: none;
+            border-bottom: 1px solid $primary-color;
+            @extend %button-text-template;
+            color: $primary-color;
+            transition: all .2s;
+        }
+    }
+}
+
+.appDescription__block {
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+
+    &_active {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+    }
+}
+
+.header {
+    @extend %h2-template;
+    @include mixins.adaptiveValue('font-size', 43, 36);
+    @include mixins.adaptiveValue('margin-bottom', 27, 15);
+}
+
+.description {
+    @extend %p-template;
+
+    &:not(:last-child){
+        @include mixins.adaptiveValue('margin-bottom', 42, 15);
+    }
+    max-width: 553px;
+}
+
+.download__button {
+    display: inline-block;
+    @extend %button-primary-template;
+
+    &:hover {
+        @extend %button-primary-hover-template;
+    }
+}
+
+.btn_wrapper_markets {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+    &_google {
+        img {
+            margin-right: 10px;
+        }
+
+        @extend %button-primary-template;
+        padding: 14px 22px;
+
+
+        &:hover {
+            @extend %button-primary-hover-template;
+        }
+    }
+
+    &_apple {
+        img {
+            margin-right: 10px;
+        }
+
+        @extend %button-primary-template;
+        box-shadow: none;
+
+        color: #0792FF;
+        background: #EAF4FF;
+        padding: 14px 22px;
+        border: 1px solid #0792FF;
+
+        &:hover {
+            box-shadow: $box-shadow-button;
+        }
+    }
+
+    &_huawei {
+        img {
+            margin-right: 10px;
+        }
+
+        @extend %button-primary-template;
+        box-shadow: none;
+        color: #0792FF;
+        background: #EAF4FF;
+        padding: 14px 22px;
+        border: 1px solid #0792FF;
+
+        &:hover {
+            box-shadow: $box-shadow-button;
+        }
+    }
+}
+
+@media (max-width: 758px) {
+    .left__block {
+        height: 400px;
+        width: 400px;
+    }
+}
+
+@media (max-width: 375px) {
+    .left__block {
+        height: 300px;
+        width: 300px;
+    }
+}

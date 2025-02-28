@@ -1,0 +1,66 @@
+@use 'common/variables';
+@use 'common/common';
+
+:root {
+    --font: #{variables.$font};
+    --fontSize: #{variables.$font-secondary};
+    --bgColor: #{variables.$background-color};
+
+    --minWidth: #{common.$minWidth};
+    --maxWidth: #{common.$maxWidth};
+    --maxWidthContainer: #{common.$maxWidthContainer};
+    --containerPadding: #{common.$containerPadding};
+
+
+    --responsiveType: #{common.$responsiveType};
+    --containerWidth: #{(common.$containerWidth)};
+
+    --pc: #{(common.$pc)};
+    --tablet: #{(common.$tablet)};
+    --mobile: #{(common.$mobile)};
+    --mobileSmall: #{(common.$mobileSmall)};
+}
+
+
+html {
+    background: var(--bgColor) ;
+    background-image: url("../public/images/BG2.svg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+}
+
+body {
+    font-family: var(--font);
+}
+
+.wrapper {
+    min-height: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+    overflow: clip;
+    //overflow: hidden;
+    //contain: paint;
+
+    // Прижимаем footer
+    > main {
+        flex: 1 1 auto;
+    }
+}
+
+
+.MuiAutocomplete-option {
+    font-family: var(--font);
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+
+@import "../common/null";
+@import "../common/container";
+@import "../common/mixins";
+@import "../common/fonts";
+
+

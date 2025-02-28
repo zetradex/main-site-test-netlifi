@@ -1,0 +1,38 @@
+import { FooterNewLocaleType } from "./types";
+
+export default {
+  Traders: "貿易商",
+  DepositWithdrawal: "存取款",
+  LocalCurrency: "當地貨幣",
+  Services: "服務",
+  WebPlatform: "網路平台",
+  MobilePlatform: "行動平台",
+  InterestRate: "利率",
+  Bonuses: "獎金",
+  MedalBonus: "獎章獎金",
+  OlympicBonus: "奧運獎金",
+  MarathonBonus: "馬拉松獎金",
+  Learn: "學習",
+  Analytics: "分析",
+  VideoTutorial: "影片教學",
+  Educational: "教育性",
+  Partners: "夥伴",
+  AffiliateLinks: "附屬連結",
+  Banners: "橫幅",
+  PartnersEarning: "合作夥伴收益",
+  Company: "公司",
+  ContactUs: "聯絡我們",
+  FundsSecurity: "資金安全",
+  AboutUs: "關於我們",
+  Regulation: "規定",
+  RegulatoryRiskDisclaimer: "監理和風險免責聲明",
+  RiskNotice:
+    "風險提示：保證金外匯交易有高風險。 交易者在決定交易之前應確保了解與槓桿外匯交易相關的風險。",
+  WelcomeBonus: "歡迎獎金",
+  PowerUpBonus: "強化獎勵",
+  VideoLesson: "視訊課程",
+  Career: "職業",
+  TradingInstrument: "交易工具",
+
+  ChineseNewYearBonus: "農曆新年獎金",
+} as FooterNewLocaleType;

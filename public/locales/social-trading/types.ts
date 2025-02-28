@@ -1,0 +1,28 @@
+export type SocialTradingType = {
+  ZeSocial: string;
+  Smart: string;
+  WeResearched: string;
+  OurApplication: string;
+  IfYouAre: string;
+  Whether: string;
+  OurMission: string;
+  GoTo: string;
+  SocialTrading: string;
+  Social: string;
+  IfTypically: string;
+  Thus: string;
+  Benefits: string;
+  InvestToday: string;
+  Cooperation: string;
+  Both: string;
+  Risk: string;
+  CopyTheTrades: string;
+  Time: string;
+  SpendYour: string;
+  Free: string;
+  WeDont: string;
+  Communication: string;
+  Not: string;
+  OpenAnAcc: string;
+  Open: string;
+};

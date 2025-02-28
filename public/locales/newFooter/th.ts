@@ -1,0 +1,38 @@
+import { FooterNewLocaleType } from "./types";
+
+export default {
+  Traders: "เทรดเดอร์",
+  DepositWithdrawal: "การฝากและถอนเงิน",
+  LocalCurrency: "สกุลเงินท้องถิ่น",
+  Services: "บริการ",
+  WebPlatform: "แพลตฟอร์มเว็บ",
+  MobilePlatform: "แพลตฟอร์มมือถือ",
+  InterestRate: "อัตราดอกเบี้ย",
+  Bonuses: "โบนัส",
+  MedalBonus: "โบนัสเหรียญ",
+  OlympicBonus: "โบนัสโอลิมปิก",
+  MarathonBonus: "โบนัสมาราธอน",
+  Learn: "เรียนรู้",
+  Analytics: "การวิเคราะห์",
+  VideoTutorial: "วิดีโอสอน",
+  Educational: "เกี่ยวกับการศึกษา",
+  Partners: "พันธมิตร",
+  AffiliateLinks: "ลิงค์พันธมิตร",
+  Banners: "แบนเนอร์",
+  PartnersEarning: "การหารายได้ของพันธมิตร",
+  Company: "บริษัท",
+  ContactUs: "ติดต่อเรา",
+  FundsSecurity: "ความปลอดภัยของกองทุน",
+  AboutUs: "เกี่ยวกับเรา",
+  Regulation: "ระเบียบข้อบังคับ",
+  RegulatoryRiskDisclaimer: "ข้อสงวนสิทธิ์ด้านกฎระเบียบและความเสี่ยง",
+  RiskNotice:
+    "ประกาศเกี่ยวกับความเสี่ยง: การซื้อขาย FX ด้วยมาร์จิ้นมีความเสี่ยงในระดับสูง เทรดเดอร์ควรตรวจสอบให้แน่ใจว่าพวกเขาเข้าใจความเสี่ยงที่เกี่ยวข้องกับการซื้อขาย FX แบบมีเลเวอเรจ ก่อนที่จะตัดสินใจซื้อขาย",
+  WelcomeBonus: "โบนัสต้อนรับ",
+  PowerUpBonus: "โบนัสเพิ่มพลัง",
+  VideoLesson: "บทเรียนวิดีโอ",
+  Career: "อาชีพ",
+  TradingInstrument: "เครื่องมือการซื้อขาย",
+
+  ChineseNewYearBonus: "โบนัสตรุษจีน",
+} as FooterNewLocaleType;

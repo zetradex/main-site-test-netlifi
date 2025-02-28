@@ -1,0 +1,25 @@
+import type { VipTradingClub } from "public/locales/terms-and-conditions/vip-trading-club/types";
+
+export default {
+  Agreement: "VIP trading club agreement",
+  Chapter_1: "Chapter 1. General conditions, terminology.",
+  Chapter_1_1: "1.1 VIP Trading club - is an additional service of the Zetradex Holding Company, the purpose of which is to provide the Company’s regular customers with a special set of services on special terms, as well as to unite the company’s clients into a separate community for the exchange of experience.",
+  Chapter_1_2: "1.2  Double Marathon bonus is a Marathon bonus operated according to its terms and conditions, providing for the accrual of +100% to the deposit amount . However to the first deposit, +200% bonus will be added instead of 100% bonus, for members of the club, maximum 3 accounts/per user. Bonus is available for LATAM region only.",
+  Chapter_1_3: "1.3 Double Welcome bonus is a Welcome bonus  operated according to its terms and conditions, providing for the accrual of +50% to the first deposit amount . However to the first deposit, +100% bonus will be added instead of 50% bonus, for members of the club, maximum 1 account/per user. Bonus is available worldwide except LATAM region.",
+  Chapter_2: "Chapter 2. Rights and obligations.",
+  Chapter_2_1: "2.1 The Client has the right to submit an application  to join the membership club anytime, after the first account registration. At the same time, the Company is obligated to consider and approve client request if next conditions are fulfilled:",
+  Chapter_2_1_1: "2.1.1 If account is verified in full",
+  Chapter_2_1_2: "2.1.2 If a client tops up at least one trading account by at least 500$ deposit in the sum of deposits and at the time of submitting an application to join the club, the balance amounted to minimum 500$ (five hundred USD) without bonuses.",
+  Chapter_2_2: "2.2 The Company is obligated to provide additional services to client such as:",
+  Chapter_2_2_1: "2.2.1 Ensuring client participation in closed club communities, as well as their administration and support.",
+  Chapter_2_2_2: "2.2.2 Discount up to 100% on payment systems fees upon deposit and withdrawals",
+  Chapter_2_2_3: "2.2.3 Special conditions within Zetradex Loyalty program, such as increased loyalty points",
+  Chapter_2_2_4: "2.2.4 Increased monthly  interest rate on accounts equity",
+  Chapter_2_2_5: "2.2.5 Special conditions in case of participation in the contests",
+  Chapter_2_2_6: "2.2.6 Discounted paid education organized by the Company",
+  Chapter_2_2_7: "2.2.7 Double Marathon bonus or Double welcome bonus on the first client deposit, provided by a special demand.",
+  Chapter_2_3: "2.3 The Company is eligible to deduct 25$ (twenty five) US dollars as annual payment for participation in the VIP trading club/per registered user.",
+  Chapter_2_4: "2.4 The Company is eligible to change or reconsider a list of additional services for  the VIP trading club participants without prior notice.",
+  Chapter_2_5: "2.5 The Company is eligible to eliminate from the club any user in case of violation of the User Agreement or abuse with our services including directly  VIP trading club services.",
+  Chapter_2_6: "2.6 Client is eligible to request  excluding their accounts from the membership club anytime since its registration. At the same time annual payment is not a subject for returning back since service of the VIP trading club is provided in full.",
+ } as VipTradingClub;

@@ -1,0 +1,27 @@
+export type WhatMeansPammType = {
+  ForInvestor: string;
+  ForTraders: string;
+  HowDoesItWork: string;
+  AllProfits: string;
+  TheTrader: string;
+  InvestorReturn: string;
+  Income: string;
+  InvestorSecurity: string;
+  InvestorThePamm: string;
+  InvestorFlexibility: string;
+  YouCanWithdraw: string;
+  InvestorTransparency: string;
+  YouCanMonitor: string;
+  InvestorWhatMeansPamm: string;
+  AsAnInvestor: string;
+  TradersNoLimit: string;
+  TradersNoLimitS: string;
+  TradersAutomation: string;
+  TradersTheProfit: string;
+  TradersPotential: string;
+  TradersMillions: string;
+  TradersConvenience: string;
+  TradersAll: string;
+  TradersWhatMeans: string;
+  TradersAsAPamm: string;
+};

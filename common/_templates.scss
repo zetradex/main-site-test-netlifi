@@ -1,0 +1,362 @@
+@use 'common/mixins';
+@import '_variables.scss';
+
+
+// Формула для процентов line-height: (line-height / font-size) * 100%
+%h1-template {
+    @include mixins.adaptiveValue('font-size', 60, 40);
+    line-height: 1.193;
+
+    color: $title-text;
+    font-weight: 600;
+}
+
+%h2-template {
+    @include mixins.adaptiveValue('font-size', 43, 32);
+    line-height: 1.193;
+
+    color: $title-text;
+    font-weight: 600;
+}
+
+%h3-template {
+    @include mixins.adaptiveValue('font-size', 35, 25);
+    line-height: 1.12;
+
+    color: $title-text;
+    font-weight: 600;
+}
+
+%h4-template {
+    @include mixins.adaptiveValue('font-size', 22, 19);
+    line-height: 1.12;
+
+    color: $title-text;
+    font-weight: 600;
+}
+
+%h5-template {
+    @include mixins.adaptiveValue('font-size', 20, 17);
+
+    font-weight: 600;
+    line-height: 1.232;
+    color: $title-text;
+}
+
+%h6-template {
+    @include mixins.adaptiveValue('font-size', 18, 16);
+    font-weight: 500;
+    line-height: 150%;
+    color: $title-text;
+}
+
+%p-template {
+    font-weight: 400;
+    @include mixins.adaptiveValue('font-size', 18, 16);
+
+    line-height: 1.5;
+    color: $paragraph-text;
+}
+
+%p-small-template {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20.25px;
+    color: $paragraph-text;
+}
+
+%header-menu-text-template {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: $title-text;
+}
+
+%menu-text-template {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $color-dar-pure;
+}
+
+%footer-header-template {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: $footer-new-text;
+}
+
+%footer-p-template {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    color: $footer-new-text;
+}
+
+%button-primary-template {
+    cursor: pointer;
+    font-weight: 700;
+    @include mixins.adaptiveValue('font-size', 18, 16);
+    line-height: 1.33;
+
+    padding: 14px 42px;
+    background-color: $primary-color;
+    color: $color-white;
+    box-shadow: $box-shadow-button;
+    border: none;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+%button-primary-hover-template {
+    //cursor: pointer;
+    //font-weight: 700;
+    //font-size: 18px;
+    //line-height: 24px;
+    //padding: 14px 42px;
+    //color: $color-white;
+
+    background-color: $primary-color-hover;
+    box-shadow: $box-shadow-button-hover;
+    border: none;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+%button-primary-disable-template {
+    cursor: auto;
+    color: $color-white;
+    background: #B1DAFF;
+    box-shadow: $box-shadow-button-disable;
+    border: none;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+
+%button-secondary-template {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 14px 42px;
+    color: $primary-color;
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+%button-secondary-hover-template {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 14px 42px;
+    color: $primary-color-hover;
+    background-color: transparent;
+    border: 2px solid $primary-color-hover;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+%button-small-primary-template {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 26px;
+    line-height: 28px;
+    background-color: $primary-color;
+    color: $color-white;
+    box-shadow: $box-shadow-button;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+%button-small-primary-hover-template {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 26px;
+    line-height: 28px;
+    background-color: $primary-color-hover;
+    color: $color-white;
+    box-shadow: $box-shadow-button-hover;
+    border: 2px solid transparent;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+
+%button-small-secondary-template {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 26px;
+    line-height: 28px;
+    color: $primary-color;
+    background-color: transparent;
+    border: 2px solid $primary-color;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+%button-small-secondary-hover-template {
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 8px 26px;
+    line-height: 28px;
+    color: $primary-color-hover;
+    background-color: transparent;
+    border: 2px solid $primary-color-hover;
+    border-radius: 15px;
+    gap: 10px;
+    transition: all .2s;
+}
+
+%table-text-template {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+%table-small-text-template {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: $paragraph-text;
+}
+
+%button-text-template {
+    @include mixins.adaptiveValue('font-size', 18, 16);
+
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.33;
+    color: $title-text;
+}
+
+%button-text-banner {
+    color: $title-text;
+
+
+    @include mixins.adaptiveValue('font-size', 18, 16);
+    line-height: 1.33;
+
+    font-weight: 700;
+}
+
+%country-style {
+    fill: #DCEBFC;
+    cursor: pointer;
+}
+
+
+%country-label {
+    fill: #0792FF;
+}
+
+////
+
+%twenty-one-regular-template {
+    @include mixins.adaptiveValue('font-size', 21, 19);
+    //font-size: 21px;
+    font-weight: 400;
+    line-height: normal;
+    color: $title-text;
+}
+
+%fourteen-bold-template {
+    @include mixins.adaptiveValue('font-size', 14, 12);
+    //font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    color: $title-text;
+}
+
+%blue_button-template {
+    width: 244px;
+    min-height: 46px;
+    padding: 4px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    color: $color-white;
+    background: $primary-color;
+    @extend %fourteen-bold-template;
+    transition: all .2s;
+}
+
+
+%blue_button-hover-template {
+    cursor: pointer;
+    background: $color-white;
+    color: $primary-color;
+    border: 1px solid $primary-color;
+    transition: all .2s;
+}
+
+
+%nav_linear {
+    position: relative;
+
+    &:after {
+        display: block;
+        position: absolute;
+        left: 0;
+        width: 0;
+        height: 2px;
+        background-color: $primary-color;
+        content: "";
+        transition: width 0.3s ease-out;
+    }
+
+    &:hover:after,
+    &:focus:after {
+        width: 100%;
+    }
+
+    &:active {
+        width: 100%
+    }
+}
+
+%dot-list {
+    margin-right: -20px;
+    padding-left: 20px;
+
+    li {
+        padding-right: 20px;
+        display: flex;
+        align-items: center;
+        @extend %table-text-template;
+        color: $paragraph-text;
+        position: relative;
+
+
+        &::before {
+            position: absolute;
+            top: 10px;
+            left: -20px;
+            content: "";
+            width: 9px;
+            height: 9px;
+            background-color: $primary-color;
+            filter: drop-shadow(0px 4px 8px rgba(7, 146, 255, 0.25));;
+            border-radius: 10px;
+        }
+    }
+}

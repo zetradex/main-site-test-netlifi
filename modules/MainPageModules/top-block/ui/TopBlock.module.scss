@@ -1,0 +1,30 @@
+@use '/common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.TopBlock {
+    @include mixins.adaptiveValue('margin-bottom', 140, 30);
+
+    @media (max-width: 1024px) {
+        margin-bottom: 0;
+    }
+}
+
+
+.DotsClass {
+    bottom: 20px !important;
+
+    li {
+        button {
+            &:before {
+                font-size: 18px !important;
+                color: #4DB4FF;
+                opacity: 0.3;
+            }
+        }
+    }
+
+    button:before {
+        color: #FFF !important;
+    }
+}

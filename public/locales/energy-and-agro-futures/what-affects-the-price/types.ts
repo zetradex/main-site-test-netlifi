@@ -1,0 +1,17 @@
+export type WhatAffectLocaleType = {
+  WhatAffect: string,
+  SupplyAndDemand: string,
+  HighPrices: string,
+  CrudeOil: string,
+  TheDecrease: string,
+  GeopoliticalFactor: string,
+  MostOf: string,
+  BrentOil: string,
+  WTIOil: string,
+  NaturalGas: string,
+  Min: string,
+  Hour: string,
+  Day: string,
+  Week: string,
+  Month:  string,
+};

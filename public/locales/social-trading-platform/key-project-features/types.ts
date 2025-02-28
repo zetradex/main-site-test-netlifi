@@ -1,0 +1,23 @@
+export type KeyProjectFeaturesType = {
+  UserFriendly: string;
+  ThePlatform: string;
+  RealTime: string;
+  UsersCan: string;
+  CloudBased: string;
+  ACloudBased: string;
+  Order: string;
+  ZetradexPlatform: string;
+  Customization: string;
+  UsersCanCustomize: string;
+  Security: string;
+  ThePlatformPrioritizes: string;
+  BackOfficeManagement: string;
+  ACloudBasedInfrastructure: string;
+  PromotionIntegrated: string;
+  ThePlatformProvides: string;
+  CostEffective: string;
+  ZetradexPlatformAllows: string;
+  MobileSocialTrading: string;
+  SocialTradingCovers: string;
+  ZeSocialTrading: string;
+};

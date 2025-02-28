@@ -1,0 +1,38 @@
+import { FooterNewLocaleType } from "./types";
+
+export default {
+  Traders: "Торговля",
+  DepositWithdrawal: "Депозит и вывод средств",
+  LocalCurrency: "Местная валюта",
+  Services: "Услуги",
+  WebPlatform: "Веб-платформа",
+  MobilePlatform: "Мобильная платформа",
+  InterestRate: "Процентная ставка",
+  Bonuses: "Бонусы",
+  MedalBonus: "Медальный бонус",
+  OlympicBonus: "Олимпийский бонус",
+  MarathonBonus: "Бонус Марафона",
+  Learn: "Учиться",
+  Analytics: "Аналитика",
+  VideoTutorial: "Видеоурок",
+  Educational: "Образование",
+  Partners: "Партнеры",
+  AffiliateLinks: "Партнерские ссылки",
+  Banners: "Баннеры",
+  PartnersEarning: "Заработок партнеров",
+  Company: "Компания",
+  ContactUs: "Связаться с нами",
+  FundsSecurity: "Безопасность средств",
+  AboutUs: "О нас",
+  Regulation: "Регулирование",
+  RegulatoryRiskDisclaimer: "Отказ от нормативных требований и рисков",
+  RiskNotice:
+    "Уведомление о рисках: маржинальная торговля валютой сопряжена с высоким уровнем риска. Трейдеры должны убедиться, что они понимают риски, связанные с торговлей валютой с использованием кредитного плеча, прежде чем принимать решение о торговле.",
+  WelcomeBonus: "Приветственный бонус",
+  PowerUpBonus: "Бонус Power-Up",
+  VideoLesson: "Видеоурок",
+  Career: "Карьера",
+  TradingInstrument: "Торговый инструмент",
+
+  ChineseNewYearBonus: "Бонус на китайский Новый год",
+} as FooterNewLocaleType;

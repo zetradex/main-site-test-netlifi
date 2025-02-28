@@ -1,0 +1,15 @@
+export type WhyChooseUsLocaleType = {
+  WhyChooseUs: string,
+  ZetradexStands: string,
+  ThisTechnology: string,
+  Zero: string,
+  Commission: string,
+  Replenishing: string,
+  Funds: string,
+  Protection: string,
+  AComplex: string,
+  Leverage: string,
+  LeverageOf: string,
+  Clients: string,
+  OneMillion: string,
+};

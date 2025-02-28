@@ -1,0 +1,17 @@
+export type AboutUsLocaleType = {
+  AboutUs: string,
+  TheZetradexBrand: string,
+  AtZECorp: string,
+  Founded: string,
+  HeadOffice: string,
+  BonovoRoad: string,
+  Regulation: string,
+  ZetradexIsRegulated: string,
+  LiquidityProviders: string,
+  TradingInstruments: string,
+  AssetTypes: string,
+  StocksIndices: string,
+  TradingPlatforms: string,
+  WithZetradex: string,
+  Furthermore: string,
+};

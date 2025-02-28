@@ -1,0 +1,73 @@
+@use 'common/function';
+
+$width-container: 1324px;
+$padding-mobile: 0 15px;
+$container_inner_padding_mobile: 20px;
+
+$error: #ff3636;
+
+
+$font: 'Gilroy', sans-serif;
+$font-primary: 24px;
+$font-secondary:  function.rem(14);
+
+$font-lh-primary: 32px;
+$font-lh-secondary: 22px;
+
+$bg-primary: #CCCCCC;
+$bg-secondary: #FFF;
+$bg-third: #FAFBFC;
+$bg-four: #E3E3E3;
+$bg-five: #F5F5F5;
+$bg-six: #E9F3FE;
+$bg-seven: radial-gradient(56.16% 38.57% at 50% 122.31%, #E6F6FF 0%, #FFFFFF 100%), #FFFFFF;
+$bg-eight: linear-gradient(0deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0.15)), #F3F9FC;
+$bg-nine: #88D4FF;
+$bg-ten: linear-gradient(180deg, #E4F1FF 0%, rgba(233, 243, 254, 0.00) 100%);
+$bg-eleven: rgba(7, 146, 255, 0.12);
+
+
+
+
+$background-color: #F3F9FC;
+$title-text: #202121;
+$paragraph-text: #474D65;
+$light-text: #C8CDDC;
+$footer-text: #9AA1B2;
+$footer-new-text: #9AA1B2;
+$primary-color: #0792FF;
+$primary-color-hover: #23A3FF;
+$secondary-color: #20D3EC;
+$tag-color: rgba(234, 244, 255, 0.7);
+$bg-active-button-color: #EAF4FF;
+
+
+
+$color-dark-third: #767E9C;
+$color-dar-pure: #000;
+
+$color-white: #ffffff;
+
+
+$color-primary: #0B90F9;
+$color-primary-hover: #0980DD;
+
+$color-disable: #f1f1f1;
+
+$checkbox-bg: #EDF6FC;
+
+
+$box-shadow-primary: 0px 6px 20px 0px rgba(44, 50, 56, 0.1);
+$box-shadow-secondary:0px 8px 16px rgba(58, 113, 255, 0.05), 0px 8px 16px rgba(23, 15, 73, 0.05);
+$box-shadow-third:0px 8px 16px rgba(58, 113, 255, 0.05);
+$box-shadow-four:5px 5px 30px rgba(208, 227, 237, 0.46);
+$box-shadow-button: 0px 11px 25px rgba(7, 146, 255, 0.25);
+$box-shadow-button-hover: 0px 11px 25px rgba(7, 146, 255, 0.35);
+$box-shadow-button-disable: 0px 6px 28px 0px rgba(7, 146, 255, 0.29);
+$box-shadow-six: 0 4px 13px rgba(166, 201, 253, 0.25);
+$box-shadow-seven: 0px 4px 25px rgba(67, 129, 250, 0.15);
+$box-shadow-eight: 0px 4px 15px rgba(56, 133, 204, 0.25);
+$box-shadow-nine: 0px 6px 28px 0px rgba(7, 146, 255, 0.29);
+$box-shadow-ten: 0px 12px 22px 0px rgba(166, 201, 253, 0.38);
+
+

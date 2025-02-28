@@ -1,0 +1,25 @@
+export type LetsGetStartedLocaleType = {
+  LetsGetStarted?: string;
+  CreateYourAccount?: string;
+  FullName?: string;
+  Email?: string;
+  Country?: string;
+  City?: string;
+  Phone?: string;
+  Account?: string;
+  Currency?: string;
+  SwapFree?: string;
+  OpenAccount?: string;
+  PublicOffer?: string;
+  ByCreating: string;
+  PrivatePolice?: string;
+  Well?: string;
+  SwapFreeQuestion?: string;
+  Address?: string;
+  Affiliate?: string;
+  Preferred?: string;
+  CreateYourOwnWebsite?: string;
+  SubmitARequest?: string;
+  Error: string;
+  TryAgain: string;
+};

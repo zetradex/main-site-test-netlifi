@@ -1,0 +1,24 @@
+export type InsuranceProgramType = {
+  zeInsurance: string;
+  protect: string;
+  riskInsurance: string;
+  zetradexOffers: string;
+  loweringRisks: string;
+  chanceTo: string;
+  affordable: string;
+  PacketsOfInsurance: string;
+  OrderNow: string;
+  Basic: string;
+  InsuranceAmountUpTo: string;
+  deposit: string;
+  InsurancePeriod: string;
+  days: string;
+  Standard: string;
+  Maxi: string;
+  HowDoesItWork: string;
+  ForExampleYouWant: string;
+  AsSoonAs: string;
+  TheProgramIsNot: string;
+  ZeInsuranceProgramIs: string;
+  TermsAndConditions: string;
+};

@@ -1,0 +1,54 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="60" height="60" fill="#E3E3E3"/>
+<g id="PAMM (tab Investors)">
+<rect width="1920" height="4000" transform="translate(-858 -1135)" fill="#F5FAFC"/>
+<g id="BG-Group" opacity="0.2">
+<g id="Group" filter="url(#filter0_f_2974_3)">
+</g>
+<g id="Group_2" filter="url(#filter1_f_2974_3)">
+</g>
+<g id="Group_3" filter="url(#filter2_f_2974_3)">
+</g>
+<g id="Group_4" filter="url(#filter3_f_2974_3)">
+</g>
+</g>
+<g id="icon-earth">
+<rect width="60" height="60" rx="21" fill="#EAF4FF"/>
+<g id="Vector" filter="url(#filter4_d_2974_3)">
+<path d="M19.47 37.67L24.54 32.6L28.18 36.24L34.16 30.26L36.5 32.6V26.1H30L32.34 28.44L28.18 32.6L24.54 28.96L18.17 35.33C17.39 33.64 17 31.82 17 30C17 22.85 22.85 17 30 17C37.15 17 43 22.85 43 30C43 37.15 37.15 43 30 43C25.84 43 21.94 41.05 19.47 37.67Z" fill="#0792FF"/>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_f_2974_3" x="21" y="-132.718" width="1017" height="1215.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_2974_3"/>
+</filter>
+<filter id="filter1_f_2974_3" x="-834" y="-710.308" width="1017" height="1215.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_2974_3"/>
+</filter>
+<filter id="filter2_f_2974_3" x="-679" y="-53.4136" width="1017" height="1215.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_2974_3"/>
+</filter>
+<filter id="filter3_f_2974_3" x="-126" y="-757.89" width="1017" height="1215.5" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feGaussianBlur stdDeviation="100" result="effect1_foregroundBlur_2974_3"/>
+</filter>
+<filter id="filter4_d_2974_3" x="9" y="13" width="42" height="42" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="4"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.027451 0 0 0 0 0.572549 0 0 0 0 1 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2974_3"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2974_3" result="shape"/>
+</filter>
+</defs>
+</svg>

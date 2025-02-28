@@ -1,0 +1,56 @@
+@use '/common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.WelcomeBonusMobile {
+    &_image {
+        img {
+            @include mixins.adaptiveImage(950);
+            width: 100%;
+        }
+        margin-bottom: 10px;
+    }
+
+    &_wrapper {
+
+        &_left {
+        }
+
+        &_right {
+
+        }
+    }
+
+    &_header {
+        //max-width: 572px;
+
+        h1 {
+            @extend %h1-template;
+            @include mixins.adaptiveValue('margin-bottom', 13, 8);
+            text-align: center;
+        }
+
+        h3 {
+            text-align: center;
+            @extend %h3-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 45, 25);
+    }
+
+    &_btn {
+        text-align: center;
+
+        a {
+            display: inline-block;
+
+            @extend %button-primary-template;
+
+            &:hover {
+                @extend %button-primary-hover-template;
+            }
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 52, 32);
+    }
+}

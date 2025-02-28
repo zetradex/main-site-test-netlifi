@@ -1,0 +1,24 @@
+export type LocalDepositorType = {
+  LocalDepositor: string;
+  Develop: string;
+  ByBecoming: string;
+  WeAlso: string;
+  Advantages: string;
+  Number: string;
+  Increases: string;
+  IbLevel: string;
+  Additional: string;
+  NoSpecial: string;
+  NoNeed: string;
+  ZeMoney: string;
+  ZetradexPartners: string;
+  WithContinuous: string;
+  NetCash: string;
+  Available: string;
+  Less: string;
+  From: string;
+  To: string;
+  More: string;
+  Terms: string;
+  ZeMoneyIsDirectly: string;
+};

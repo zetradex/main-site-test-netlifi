@@ -1,0 +1,17 @@
+export type CardAndTableLocaleType = {
+  AccountCurrency: string,
+  AllCurrencies: string,
+  MinimumDeposit: string,
+  MaximumDeposit: string,
+  RecommendedDeposit: string,
+  CompatibleWithBonuses: string,
+  LotSize: string,
+  MaximumLeverage: string,
+  Swaps: string,
+  Yes: string,
+  Spreads: string,
+  Fixed: string,
+  CompatibleWithForexCopy: string,
+  No: string,
+  OpenAccount: string,
+};

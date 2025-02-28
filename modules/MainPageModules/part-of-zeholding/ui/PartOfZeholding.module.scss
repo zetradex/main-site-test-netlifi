@@ -1,0 +1,82 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.PartOfZeholding {
+    @include mixins.adaptiveValue('margin-bottom', 190, 30);
+
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+        @media (max-width: 1300px) {
+            flex-wrap: wrap;
+            flex-direction: column-reverse;
+        }
+        border-radius: 40px;
+        background-color: #0792FF;
+
+
+        //@include mixins.adaptiveValue('padding-top', 94, 20);
+        @include mixins.adaptiveValue('padding-bottom', 72, 20);
+        @include mixins.adaptiveValue('padding-left', 112, 20);
+
+    }
+
+    &_left {
+        max-width: 500px;
+        @include mixins.adaptiveValue('padding-top', 94, 20);
+    }
+
+    &_right {
+
+    }
+
+    &_header {
+        h3 {
+            color: #FFF;
+
+            @extend %h3-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 30, 20);
+    }
+
+    &_desc {
+        p {
+            color: #FFF;
+
+            @extend %p-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 30, 20);
+    }
+
+    &_btn {
+        a {
+            padding: 6px 24px;
+
+            text-align: center;
+            border-radius: 30px;
+            border: 1px solid #FFF;
+
+            color: #FFF;
+
+            font-size: 18px;
+            font-weight: 600;
+            line-height: 133.333%;
+        }
+    }
+
+    &_image {
+
+        img {
+
+            @include mixins.adaptiveImage(769);
+
+        }
+    }
+
+}

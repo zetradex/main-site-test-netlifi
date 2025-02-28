@@ -1,0 +1,95 @@
+@use '/common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.BeBoldMobile {
+    &_image {
+        img {
+            @include mixins.adaptiveImage(950);
+            width: 100%;
+        }
+        margin-bottom: 10px;
+    }
+
+    &_wrapper {
+
+        &_left {
+        }
+
+        &_right {
+
+        }
+    }
+
+    &_header {
+        h1 {
+            @extend %h1-template;
+            text-align: center;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 26, 16);
+    }
+
+    &_btn {
+        text-align: center;
+
+        button {
+            display: inline-block;
+
+            @extend %button-primary-template;
+
+            &:hover {
+                @extend %button-primary-hover-template;
+            }
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 52, 32);
+    }
+
+
+    &_card {
+        @media (max-width: 1024px) {
+            display: none;
+        }
+
+        max-width: 500px;
+        margin: 0 auto;
+        background: #40A6FF;
+        padding: 26px 36px;
+        border-radius: 22px;
+
+        display: flex;
+        column-gap: 37px;
+        align-items: center;
+        justify-content: center;
+
+        @media (max-width: 575px) {
+            flex-direction: column;
+        }
+
+
+        &_wrapper {
+            &_title {
+                h4 {
+                    color: #FFF;
+                    @extend %h4-template;
+                }
+
+                margin-bottom: 11px;
+            }
+
+            &_desc {
+                p {
+                    color: #FFF;
+                    @extend %p-template;
+
+                    span {
+                        font-size: 15px;
+                        font-weight: 700;
+                        line-height: 135%;
+                    }
+                }
+            }
+        }
+    }
+}

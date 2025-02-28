@@ -1,0 +1,22 @@
+@import 'common/_variables.scss';
+@import '../../../templates';
+
+
+
+.button{
+@extend %p-template;
+  &:disabled{
+
+      color: $error;
+
+      border-color: $light-text;
+
+    svg{
+        fill: $light-text
+    }
+  }
+  span{
+    margin-left: 4px;
+    //margin-right: -4px;
+  }
+}

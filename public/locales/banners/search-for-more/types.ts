@@ -1,0 +1,26 @@
+export type SearchForMoreType = {
+  Search: string;
+  Category: string;
+  All: string;
+  Personal: string;
+  EventPromotion: string;
+  TradingSignals: string;
+  Mentorship: string;
+  Bonuses: string;
+  Services: string;
+  LocalDepositor: string;
+  SearchByName: string;
+  TShirts: string;
+  Leaflets: string;
+  Rollups: string;
+  Certifictes: string;
+  BusinessCards: string;
+  Filters: string;
+  Markets: string;
+  Ambassadors: string;
+  Partnership: string;
+  TradingApps: string;
+  Signals: string;
+  Seminars: string;
+  Webinars: string;
+};

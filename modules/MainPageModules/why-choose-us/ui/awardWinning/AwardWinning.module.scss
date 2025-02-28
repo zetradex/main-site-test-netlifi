@@ -1,0 +1,34 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.AwardWinning {
+
+    &_header {
+        max-width: 425px;
+        background: #3D6CC8;
+        border-radius: 30px 30px 0 0;
+
+        @include mixins.adaptiveValue('padding-top', 52, 28);
+        @include mixins.adaptiveValue('padding-left', 60, 41);
+        @include mixins.adaptiveValue('padding-right', 60, 41);
+
+        @media (max-width: 947px) {
+            padding-bottom: 15px;
+        }
+
+        h3 {
+            color: #FFF;
+            @extend %h3-template;
+        }
+    }
+
+    &_img {
+        img {
+            border-radius: 0 0 30px 30px;
+
+            @include mixins.adaptiveImage(425);
+        }
+
+    }
+}

@@ -1,0 +1,25 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.WhyChooseUs {
+    @include mixins.adaptiveValue('margin-bottom', 158, 30);
+
+
+    &_header {
+        h2 {
+            @extend %h2-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 44, 22);
+    }
+
+    &_wrapper {
+        display: flex;
+        justify-content: center;
+        gap: 21px;
+        flex-wrap: wrap;
+    }
+
+
+}

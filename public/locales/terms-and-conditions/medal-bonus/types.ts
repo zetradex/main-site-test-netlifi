@@ -1,0 +1,37 @@
+export type MedalBonusLocaleType = {
+  TheMedalBonusAgreement: string;
+  Chapter1: string;
+  Chapter1_1: string;
+  Chapter1_2: string;
+  Chapter1_3: string;
+  Chapter1_4: string;
+  Chapter1_5: string;
+  Chapter1_6: string;
+  Chapter1_7: string;
+  Chapter1_8: string;
+  Chapter1_9: string;
+  Chapter2: string;
+  Chapter2_1: string;
+  Chapter2_2: string;
+  Chapter2_3: string;
+
+  Chapter2_4: string;
+  Chapter2_5: string;
+  Chapter2_6: string;
+  Chapter2_7: string;
+  Chapter3: string;
+  Chapter3_1: string;
+  Chapter3_2: string;
+  Chapter3_2_1: string;
+  Chapter3_2_2: string;
+  Chapter3_2_3: string;
+  Chapter3_2_4: string;
+  Chapter3_2_5: string;
+  Chapter3_2_6: string;
+  Chapter3_2_7: string;
+  Chapter3_2_8: string;
+  Chapter3_2_9: string;
+  Chapter3_3: string;
+  Chapter3_4: string;
+  Chapter3_5: string;
+};

@@ -1,0 +1,127 @@
+@use 'common/mixins';
+@use 'common/common';
+@import 'common/variables';
+@import 'common/templates';
+
+
+.block {
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 30px;
+}
+
+.inner {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+
+    flex: 1;
+    max-width: 425px;
+
+    background-color: $color-white;
+    box-shadow: $box-shadow-seven;
+    border-radius: 15px;
+    vertical-align: top;
+}
+
+.vip__lable {
+    position: absolute;
+    padding: 20px;
+    background-color: $primary-color;
+    border-radius: 15px 0;
+
+    span {
+        @extend %h4-template;
+        color: $color-white;
+    }
+}
+
+.inner_top {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+
+    &_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 360px;
+
+        img {
+            padding: 20px;
+            @include mixins.adaptiveImage(400);
+        }
+    }
+}
+
+.description__block {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header {
+    @extend %h3-template;
+    @include mixins.adaptiveValue('font-size', 35, 30);
+
+    margin-bottom: 31px;
+    text-align: center;
+
+    span {
+        color: $primary-color;
+    }
+}
+
+.table {
+    border-collapse: collapse;
+
+    margin-bottom: 42px;
+}
+
+.table__row {
+    border-bottom: 1px solid rgba(7, 146, 255, 0.2);
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    td {
+
+    }
+}
+
+.left__column {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 180%;
+    padding: 5px 40px 5px 0;
+}
+
+.right__column {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 180%;
+}
+
+.button__container {
+    align-self: center;
+
+    margin-bottom: 61px;
+}
+
+.button {
+    display: block;
+    @extend %button-primary-template;
+
+    &:hover {
+        @extend %button-primary-hover-template;
+    }
+}
+

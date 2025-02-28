@@ -1,0 +1,40 @@
+import { FooterNewLocaleType } from "./types";
+
+export default {
+  Traders: "Trader",
+  DepositWithdrawal: "Deposito e prelievo",
+  LocalCurrency: "Valuta locale",
+  Services: "Servizi",
+  WebPlatform: "Piattaforma Web",
+  MobilePlatform: "Piattaforma mobile",
+  InterestRate: "Tasso di interesse",
+  Bonuses: "Bonus",
+  MedalBonus: "Bonus medaglia",
+  OlympicBonus: "Bonus olimpico",
+  MarathonBonus: "Bonus maratona",
+  Learn: "Scopri",
+  Analytics: "Analisi",
+  VideoTutorial: "Tutorial video",
+  Educational: "Istruzione",
+  Partners: "Partner",
+  AffiliateLinks: "Link di affiliazione",
+  Banners: "Banner",
+  PartnersEarning: "Partner che guadagnano",
+  Merchandise: "Merce",
+  Company: "Azienda",
+  ContactUs: "Contattaci",
+  FundsSecurity: "Sicurezza dei fondi",
+  AboutUs: "Chi siamo",
+  Regulation: "Regolamentazione",
+  RegulatoryRiskDisclaimer:
+    "Esclusione di responsabilità normativa e sui rischi",
+  RiskNotice:
+    "Avviso sui rischi: il trading FX a margine comporta elevati livelli di rischio. I trader devono assicurarsi di comprendere i rischi associati al trading FX con leva finanziaria prima di decidere di fare trading.",
+  WelcomeBonus: "Bonus di benvenuto",
+  PowerUpBonus: "Bonus di potenziamento",
+  VideoLesson: "Video Lezione",
+  Career: "Carriera",
+  TradingInstrument: "Strumento di trading",
+
+  ChineseNewYearBonus: "Bonus per il capodanno cinese",
+} as FooterNewLocaleType;

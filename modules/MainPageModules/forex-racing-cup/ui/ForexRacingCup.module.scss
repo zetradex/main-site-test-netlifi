@@ -1,0 +1,66 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.ForexRacingCup {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    @include mixins.adaptiveValue('margin-bottom', 207, 40);
+
+    &_left {
+        max-width: 463px;
+    }
+
+    &_right {
+
+    }
+
+    &_title {
+        h2 {
+            @extend %h2-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 13, 9);
+    }
+
+    &_subtitle {
+        max-width: 448px;
+
+        h3 {
+            color: #0792FF;
+            @extend %h3-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 40, 20);
+    }
+
+    &_desc {
+        max-width: 463px;
+
+        p {
+            @extend %p-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 34, 18);
+    }
+
+    &_btn {
+        a {
+            display: inline-block;
+
+            @extend %button-primary-template;
+
+            &:hover {
+                @extend %button-primary-hover-template;
+            }
+        }
+    }
+
+    &_image {
+        img {
+            @include mixins.adaptiveImage(761);
+        }
+    }
+}

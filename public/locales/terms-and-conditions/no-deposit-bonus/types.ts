@@ -1,0 +1,28 @@
+export type NoDepositBonusType = {
+  TheNoDepositBonusAgreement: string;
+  Chapter1: string;
+  Chapter1_1: string;
+  Chapter1_2: string;
+  Chapter1_3: string;
+  Chapter1_4: string;
+  Chapter1_5: string;
+  Chapter1_6: string;
+  Chapter1_7: string;
+  Chapter1_8: string;
+  Chapter1_9: string;
+  Chapter2: string;
+  Chapter2_1: string;
+  Chapter2_2: string;
+  Chapter2_3: string;
+  Chapter2_3_1: string;
+  Chapter2_3_2: string;
+  Chapter2_3_2_for: string;
+  Chapter2_3_3: string;
+  Chapter2_3_4: string;
+  Chapter2_3_5: string;
+  Chapter2_3_6: string;
+  Chapter2_4: string;
+  Chapter2_4_1: string;
+  Chapter2_4_2: string;
+  Chapter2_5: string;
+};

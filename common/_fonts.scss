@@ -1,0 +1,11 @@
+@use 'common/mixins';
+
+
+@include mixins.font("Gilroy", "Gilroy-Regular", "400", "normal");
+@include mixins.font("Gilroy", "Gilroy-Medium", "500", "normal");
+@include mixins.font("Gilroy", "Gilroy-SemiBold", "600", "normal");
+@include mixins.font("Gilroy", "Gilroy-ExtraBold", "700", "normal");
+
+@include mixins.font("Mont", "Mont-Regular", "400", "normal");
+@include mixins.font("Mont", "Mont-Black", "800", "normal");
+@include mixins.font("Mont", "Mont-Bold", "700", "normal");

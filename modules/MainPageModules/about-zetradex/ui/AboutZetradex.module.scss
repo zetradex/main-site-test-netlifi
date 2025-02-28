@@ -1,0 +1,52 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+
+.AboutZetradex {
+    @include mixins.adaptiveValue('margin-bottom', 90, 30);
+
+    &_header {
+        h2 {
+            @extend %h2-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 40, 20);
+    }
+
+    &_wrapper {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        flex-wrap: wrap;
+
+        &_left {
+            max-width: 395px;
+
+            p {
+                @extend %p-template;
+
+                &:not(:last-child) {
+                    @include mixins.adaptiveValue('margin-bottom', 25, 15);
+                }
+            }
+        }
+
+        &_center {
+            max-width: 380px;
+            flex: 1;
+
+            p {
+                @extend %p-template;
+            }
+        }
+
+        &_right {
+            max-width: 413px;
+
+            p {
+                @extend %p-template;
+            }
+        }
+    }
+}

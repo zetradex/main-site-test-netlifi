@@ -1,0 +1,45 @@
+@use 'common/mixins';
+@import 'common/variables';
+@import 'common/templates';
+
+.CryptoTrading {
+    max-width: 428px;
+    max-height: 542px;
+
+    background: #B5CCFF;
+
+    border-radius: 30px;
+
+    &_img {
+        img {
+            @include mixins.adaptiveImage(428);
+        }
+    }
+
+    &_wrapper {
+        @include mixins.adaptiveValue('padding-bottom', 33, 23);
+        @include mixins.adaptiveValue('padding-left', 48, 41);
+        @include mixins.adaptiveValue('padding-right', 48, 41);
+
+        background: #B5CCFF;
+        border-radius: 30px;
+    }
+
+    &_title {
+        h3 {
+            @extend %h3-template;
+        }
+
+        @include mixins.adaptiveValue('margin-bottom', 31, 21);
+    }
+
+    &_desc {
+        p {
+            @extend %p-template;
+
+            &:not(:last-child) {
+                @include mixins.adaptiveValue('margin-bottom', 7, 6);
+            }
+        }
+    }
+}

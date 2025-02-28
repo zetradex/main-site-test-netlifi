@@ -1,0 +1,15 @@
+export type HowMuchLocaleType = {
+  HowMuch: string,
+  ByTrading: string,
+  InTheLong: string,
+  OneThing: string,
+  HereTheLaw: string,
+  Gold: string,
+  Platinum: string,
+  Silver: string,
+  Min: string,
+  Hour: string,
+  Day: string,
+  Week: string,
+  Month:  string,
+};

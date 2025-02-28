@@ -1,0 +1,25 @@
+export type CryptoTradingLocaleType = {
+  CryptoTrading: string;
+  TradingOfTheFuture: string;
+  InfoTime: string;
+  OpenAccount: string;
+  CryptocurrencyIsDigitalMoney: string;
+  TransactionsWithCryptocurrencies: string;
+  CryptocurrencyHoldersCan: string;
+  HowIsCryptocurrencyCreated: string;
+  ThereAreTwoMainWaysToMine: string;
+  CryptocurrencyMiningIsThe: string;
+  CryptocurrencyStakingIsAnother: string;
+  WhereDidCryptocurrencies: string;
+  TheHistoryOfCryptocurrencies: string;
+  BitcoinTradingBecamePossible: string;
+  InMayLaszloHanyecz: string;
+  BitcoinPavedTheWay: string;
+  WhatMakesCryptocurrencyAn: string;
+  Volatility: string;
+  TheValueOfCryptocurrenciesIs: string;
+  Uncorrelated: string;
+  WhatHappensInTheFinancial: string;
+  GrowthPotential: string;
+  IfTheValueOfACurrency: string;
+};
